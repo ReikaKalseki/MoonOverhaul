@@ -1,0 +1,34 @@
+{
+  "name" : "moongeode",
+  "friendlyName" : "moongeode",
+
+  "parallax" : "/parallax/underground/moonunderground.parallax",
+
+  "mainBlock" : "obsidian",
+  "subBlocks" : [ "moonrock", "magmarock" ],
+  "ores" : "moongeode",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/moongeode.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/moongeode.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : []
+    },
+    "night" : {
+      "tracks" : []
+    }
+  },
+
+  "undergroundPlaceables" : {
+    "items" : []
+  },
+
+  "hueShiftOptions" : [0]
+}

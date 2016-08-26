@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/moonmiddle",
+    "value": [[0.5, [ [ "erchius", 1.1 ] ] ]]
+  },
+  {
+    "op": "add",
+    "path": "/moondeep",
+    "value": [[0.5, [ [ "erchius", 1.3 ] ] ]]
+  },
+  {
+    "op": "add",
+    "path": "/mooncore",
+    "value": [[0.5, [ [ "erchius", 1.6 ] ] ]]
+  },
+  {
+    "op": "add",
+    "path": "/moongems",
+    "value": [[0.5, [ [ "erchius", 0.7 ], ["diamond", 0.3], ["prisilite", 0.2], ["crystal", 0.5] ] ]]
+  },
+  {
+    "op": "add",
+    "path": "/moongeode",
+    "value": [[0.5, [ [ "erchius", 0.2 ], ["diamond", 0.5], ["prisilite", 0.4], ["crystal", 0.9] ] ]]
+  },
+  {
+    "op": "add",
+    "path": "/moonmetal",
+    "value": [[0.5, [ [ "erchius", 0.1 ], ["gold", 0.4], ["platinum", 0.2], ["silver", 0.6], ["lead", 0.5] ] ]]
+  },
+  {
+    "op": "add",
+    "path": "/mooncraters",
+    "value": [[0.5, [ ["iron", 0.75], ["gold", 0.1875], ["platinum", 0.1], ["silver", 0.25], ["lead", 0.2] ] ]]
+  },
+  {
+    "op": "add",
+    "path": "/mooncarbon",
+    "value": [[0.5, [ ["coal", 1.0], ["diamond", 0.05] ] ]]
+  }
+]

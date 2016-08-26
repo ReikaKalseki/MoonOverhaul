@@ -1,0 +1,158 @@
+[  
+  {
+    "op": "replace",
+    "path": "/planetTypes/moon/gravityRange",
+    "value": [10, 30]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/moon/layers/underground1/primaryRegion/0",
+    "value": "moonmiddledepth"
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/moon/layers/underground2/primaryRegion/0",
+    "value": "moonmiddledepth"
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/moon/layers/underground3/primaryRegion/0",
+    "value": "moondeep"
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/moonmiddledepth",
+	"value": 
+	  {
+      "fgCaveSelector" : [ "moonCaves" ],
+      "fgOreSelector" : ["richVeins"],
+      "bgOreSelector" : ["richVeins"],
+      "caveLiquid" : [ "fuel" ],
+      "caveLiquidSeedDensityRange" : [3.5, 3.5],
+      "biome" : [
+        [0, [ "moonmiddledepth"]]
+      ],
+      "subRegion" : ["icemoon", "fuelsea"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/moondeep",
+	"value": 
+	  {
+      "fgCaveSelector" : [ "moonCaves" ],
+      "fgOreSelector" : ["richVeins"],
+      "bgOreSelector" : ["richVeins"],
+      "caveLiquid" : [ "fuel" ],
+      "caveLiquidSeedDensityRange" : [3.5, 3.5],
+      "biome" : [
+        [0, [ "moondeep"]]
+      ],
+      "subRegion" : ["moongembiome", "moongeode"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/moongembiome",
+    "value": 
+	{
+      "fgCaveSelector" : [ "moonCaves" ],
+      "fgOreSelector" : ["richVeins"],
+      "bgOreSelector" : ["richVeins"],
+      "caveLiquid" : [ "healingliquid" ],
+      "caveLiquidSeedDensityRange" : [0.75, 1.5],
+      "biome" : [
+        [0, [ "moongembiome" ]]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/moongeode",
+    "value": 
+	{
+      "caveLiquid" : [ "lava" ],
+      "caveLiquidSeedDensityRange" : [6.0, 6.0],
+      "biome" : [
+        [0, [ "moongeode" ]]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/moonmetals",
+    "value": 
+	{
+      "fgCaveSelector" : [ "moonCaves" ],
+      "fgOreSelector" : ["richVeins"],
+      "bgOreSelector" : ["richVeins"],
+      "caveLiquid" : [  ],
+      "biome" : [
+        [0, [ "moonmetal" ]]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/icemoon",
+    "value": 
+	{
+      "fgCaveSelector" : [ "moonCaves" ],
+      "fgOreSelector" : ["richVeins"],
+      "bgOreSelector" : ["richVeins"],
+      "caveLiquid" : ["water"],
+      "biome" : [
+        [0, [ "icemoon" ]]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/blastedmoon",
+    "value": 
+	{
+      "fgCaveSelector" : [ "moonCaves" ],
+      "fgOreSelector" : ["richVeins"],
+      "bgOreSelector" : ["richVeins"],
+      "caveLiquid" : [],
+      "biome" : [
+        [0, [ "blasted"]]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/carbonmoon",
+    "value": 
+	{
+      "fgCaveSelector" : [ "moonCaves" ],
+      "fgOreSelector" : ["richVeins"],
+      "bgOreSelector" : ["richVeins"],
+      "caveLiquid" : ["lava", "tarliquid"],
+      "caveLiquidSeedDensityRange" : [1.0, 1.0],
+      "biome" : [
+        [0, [ "carbon"]]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/fuelsea",
+    "value": 
+	{
+      "fgCaveSelector" : [ "moonCaves" ],
+      "fgOreSelector" : ["richVeins"],
+      "bgOreSelector" : ["richVeins"],
+      "caveLiquid" : ["fuel"],
+      "caveLiquidSeedDensityRange" : [12.0, 20.0],
+      "biome" : [
+        [0, [ "fuelsea"]]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/moon/subRegion",
+    "value": ["blastedmoon", "carbonmoon"]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "name" : "icemoon",
+  "friendlyName" : "icemoon",
+
+  "parallax" : "/parallax/underground/moonunderground.parallax",
+
+  "mainBlock" : "ice",
+  "subBlocks" : [ "moondust", "frozendirt", "direstone" ],
+  "ores" : "none",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/icemoon.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/icemoon.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : []
+    },
+    "night" : {
+      "tracks" : []
+    }
+  },
+
+  "undergroundPlaceables" : {
+    "items" : [
+    ]
+  },
+
+  "hueShiftOptions" : [0]
+}

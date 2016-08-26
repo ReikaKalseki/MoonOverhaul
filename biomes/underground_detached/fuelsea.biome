@@ -1,0 +1,35 @@
+{
+  "name" : "fuelsea",
+  "friendlyName" : "Fuel Sea",
+
+  "parallax" : "/parallax/underground/moonunderground.parallax",
+
+  "mainBlock" : "moonrock",
+  "subBlocks" : [ "moondust" ],
+  "ores" : "none",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/moon_underground.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/moon_underground.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : []
+    },
+    "night" : {
+      "tracks" : []
+    }
+  },
+
+  "undergroundPlaceables" : {
+    "items" : [
+    ]
+  },
+
+  "hueShiftOptions" : [0]
+}

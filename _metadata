@@ -1,0 +1,8 @@
+{
+  "author" : "Reika",
+  "description" : "Overhauls moon generation to make exploring them more rewarding and interesting, while keeping a vanilla feel.",
+  "friendlyName" : "Moon Overhaul",
+  "includes" : ["ScaledOres"],
+  "name" : "MoonOverhaul",
+  "version" : "0.0.1"
+}
