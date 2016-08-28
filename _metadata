@@ -3,6 +3,8 @@
   "description" : "Overhauls moon generation to make exploring them more rewarding and interesting, while keeping a vanilla feel.",
   "friendlyName" : "Moon Overhaul",
   "includes" : ["ScaledOres"],
+  "link" : "steam://url/CommunityFilePage/753464364",
   "name" : "MoonOverhaul",
+  "steamContentId" : "753464364",
   "version" : "0.0.1"
 }
