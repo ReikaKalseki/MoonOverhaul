@@ -111,9 +111,11 @@
     "path": "/regionTypes/blastedmoon",
     "value": 
 	{
-      "fgCaveSelector" : [ "moonCaves" ],
-      "fgOreSelector" : ["richVeins"],
-      "bgOreSelector" : ["richVeins"],
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "moonSurfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "fgOreSelector" : ["hugeVeins"],
+      "bgOreSelector" : ["hugeVeins"],
       "caveLiquid" : [],
       "biome" : [
         [0, [ "blasted"]]
@@ -125,9 +127,11 @@
     "path": "/regionTypes/carbonmoon",
     "value": 
 	{
-      "fgCaveSelector" : [ "moonCaves" ],
-      "fgOreSelector" : ["richVeins"],
-      "bgOreSelector" : ["richVeins"],
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "moonSurfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "fgOreSelector" : ["hugeVeins"],
+      "bgOreSelector" : ["hugeVeins"],
       "caveLiquid" : ["lava", "tarliquid"],
       "caveLiquidSeedDensityRange" : [1.0, 1.0],
       "biome" : [
