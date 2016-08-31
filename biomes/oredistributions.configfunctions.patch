@@ -38,5 +38,15 @@
     "op": "add",
     "path": "/mooncarbon",
     "value": [[0.5, [ ["coal", 1.0], ["diamond", 0.05] ] ]]
+  },
+  {
+    "op": "add",
+    "path": "/moonsea",
+    "value": [[0.5, [ ["erchius", 1.1]] ]]
+  },
+  {
+    "op": "add",
+    "path": "/moonshadow",
+    "value": [[0.5, [ ["erchius", 0.5], ["coal", 0.2], ["diamond", 0.025], ["crystal", 0.1], ["gold", 0.2] ] ]]
   }
 ]

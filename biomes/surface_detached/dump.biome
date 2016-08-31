@@ -1,6 +1,6 @@
 {
-  "name" : "carbon",
-  "friendlyName" : "carbon",
+  "name" : "moondump",
+  "friendlyName" : "moondump",
   
     "airless" : true,
 
@@ -142,8 +142,8 @@
   ],
 
   "mainBlock" : "moondust",
-  "subBlocks" : [ "moonrock", "ash" ],
-  "ores" : "mooncarbon",
+  "subBlocks" : [ "moonrock", "junktech", "junk" ],
+  "ores" : "moon",
 
   "parallax" : "/parallax/surface/moon.parallax",
 
@@ -179,6 +179,20 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.8, "explosivebarrel" ] ],
             "parameters" : { }
           }
         ]

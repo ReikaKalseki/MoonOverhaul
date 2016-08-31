@@ -1,12 +1,12 @@
 {
-  "name" : "fuelsea",
-  "friendlyName" : "Fuel Sea",
+  "name" : "blackcaves",
+  "friendlyName" : "blackcaves",
 
   "parallax" : "/parallax/underground/moonunderground.parallax",
 
-  "mainBlock" : "moonrock",
-  "subBlocks" : [ "moondust" ],
-  "ores" : "moonsea",
+  "mainBlock" : "shadowblock",
+  "subBlocks" : [ "moondust", "moonrock" ],
+  "ores" : "moonshadow",
 
   "ambientNoises" : {
     "day" : {

@@ -1,10 +1,10 @@
 {
   "author" : "Reika",
-  "description" : "Overhauls moon generation to make exploring them more rewarding and interesting, while keeping a vanilla feel.",
+  "description" : "Overhauls moon generation to make exploring them more rewarding and interesting, while keeping a vanilla feel. Adds several new biomes, expands the ore profile, and in general adds more variety and value, particularly to greater depths. In addition to new ores, it makes erchius spawns gradually denser the deeper you go.\n\nBiome List:\nBlasted (Surface) - A cratered wasteland with lots of meteor remnants, including metal-rich rock\nCarbonaceous (Surface) - Deposits of organic material are common here, kept warm by tar and a small amount of lava\nJunkyard (Surface) - Someone else has been here before you, if only to dump their waste\nIce Caves (Shallow) - Mostly devoid of ores, but small pools of liquid water are common.\nShadow Caves (Shallow) - A few shiny things here and there dot these jet-black caverns\nErchius Sea (Mid-Depth) - Massive seams of liquid erchius\nGeode (Deep) - Lots of obsidian and magmarock shells, some still full of lava. Valuable gems are found here.\nCrystal Caves (Deep) - Rocky but abundant with glittering crystal\nMetallic Core (Core) - The sunken remains of ancient meteoritic bombardment; very rich in metals but also rare.",
   "friendlyName" : "Moon Overhaul",
   "includes" : ["ScaledOres"],
   "link" : "steam://url/CommunityFilePage/753464364",
   "name" : "MoonOverhaul",
   "steamContentId" : "753464364",
-  "version" : "0.0.1"
+  "version" : "0.0.3"
 }
