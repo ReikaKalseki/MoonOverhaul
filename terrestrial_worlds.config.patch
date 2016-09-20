@@ -175,7 +175,7 @@
       "fgOreSelector" : ["richVeins"],
       "bgOreSelector" : ["richVeins"],
       "caveLiquid" : ["fuel"],
-      "caveLiquidSeedDensityRange" : [12.0, 20.0],
+      "caveLiquidSeedDensityRange" : [20.0, 60.0],
       "biome" : [
         [0, [ "fuelsea"]]
       ]

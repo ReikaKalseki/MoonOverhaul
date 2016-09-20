@@ -27,7 +27,22 @@
   },
 
   "undergroundPlaceables" : {
-    "items" : []
+    "items" : [
+	      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.1, "geodelowanatural" ], [0.1, "geodebnatural" ], [0.1, "geodecnatural" ], [0.1, "geodednatural" ], [0.1, "geodehighanatural" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+	]
   },
 
   "hueShiftOptions" : [0]
